@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .inner {
+        color: red;
+        font-size: larger;
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="menu">
+      <p>Menu</p>
+    </div>
+    <p style="color: blue; font-size: larger">CSS TEST - 편리한 스타일</p>
+    <p class="inner">CSS TEST - 내부 스타일 시트</p>
+    <p class="outer">CSS TEST - 외부 스타일 시트</p>
+    <div id="container">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus animi
+        esse quo ratione deleniti? Vel ducimus natus exercitationem doloremque
+        inventore nemo, autem ipsa adipisci vitae debitis tempora qui excepturi
+        blanditiis.
+      </p>
+    </div>
+
+    <p>패러그래프</p>
+    <p class="center large">패러그래프 - center class</p>
+    <h2>h2 패러그래프</h2>
+
+    <p class="pclass" id="pid" style="color: violet">스타일 우선순위</p>
+
+    <p class="pclass" id="pid">스타일 우선순위</p>
+
+    <div class="first">
+      <h5>first</h5>
+      <div class="second">
+        <h5>second</h5>
+        <div class="third">
+          <h5>third</h5>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

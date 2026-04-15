@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .outer {
+  color: brown;
+  font-size: x-large;
+}
+
+body {
+  background-color: aqua;
+}
+
+#menu {
+  background-color: black;
+  color: white;
+  border: 5px white solid;
+}
+
+p {
+  font-style: italic;
+}
+
+#container {
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 3px dotted #000;
+  text-align: center;
+}
+
+p.center {
+  text-align: center;
+}
+
+.large {
+  font-size: 30px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  font-weight: bolder;
+} */
+
+p {
+  color: blue /*!important */;
+}
+
+.pclass {
+  color: red;
+}
+
+#pid {
+  color: green;
+}
+
+#pid {
+  color: yellow;
+}
+
+.first {
+  color: chocolate;
+}
+
+.second {
+  color: red;
+}
+
+.third {
+  color: green;
+}

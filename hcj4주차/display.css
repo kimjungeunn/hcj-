@@ -1,0 +1,11 @@
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  background-color: aquamarine;
+  display: inline-block; /*표시X*/
+  border: 1px solid gray; /*테두리*/
+  padding: 20px;
+  margin: 0 20px; /*박스간 간격*/
+}

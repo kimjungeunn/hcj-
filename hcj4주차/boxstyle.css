@@ -1,0 +1,23 @@
+.box1 {
+  background-color: aqua;
+  width: 400px;
+  height: 300px;
+  margin: 30px;
+  padding: 20px;
+  border: 5px solid blue;
+  border-style: solid dashed dotted none;
+  /* 시계방향 */
+  border-width: thick medium thick thin;
+  border-color: red orange yellow green;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 5px 5px yellow;
+  /* 가로 세로 얼마나 옆으로 갔는지? 흐림정도 */
+  border-radius: 20px;
+}
+
+.pl {
+  background-color: beige;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
